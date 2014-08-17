@@ -1,0 +1,9 @@
+.DS_Store
+.AppleDouble
+.LSOverride
+
+/.idea
+/node_modules
+/vendor
+atlassian-ide-plugin.xml
+
