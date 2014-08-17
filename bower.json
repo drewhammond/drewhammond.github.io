@@ -1,0 +1,23 @@
+{
+  "name": "DrewHammond.me",
+  "version": "0.0.0",
+  "authors": [
+    "Drew Hammond <drew@alphagenetica.com>"
+  ],
+  "description": "Personal website and portfolio",
+  "license": "proprietary",
+  "homepage": "http://drewhammond.me",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "assets/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass-official": "~3.2.0+1",
+    "fontawesome": "~4.1.0"
+  }
+}
