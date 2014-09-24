@@ -1,13 +1,21 @@
 // Footer styles
 
 .footer {
+//  font-size: 14px;
   height: 60px;
   position: absolute;
   bottom: 0;
   left: 0;
   width: 100%;
   display: block;
-  color: $gray-light;
-  background-color: lighten($color-3, 70%);
-  padding: 20px;
+//  color: #fff;
+  background-color: transparentize(#fff, 0.96);
+
+  .copyright {
+	font-size: 14px;
+	line-height: 60px;
+	color: #3e6372;
+	margin-left: 20px;
+	margin-bottom: 0;
+  }
 }
