@@ -3,7 +3,8 @@ var gulp = require('gulp'),
     autoprefixer = require('gulp-autoprefixer'),
     plumber = require('gulp-plumber'),
     watch = require('gulp-watch'),
-    livereload = require('gulp-livereload');
+    livereload = require('gulp-livereload'),
+    w3cjs = require('gulp-w3cjs');
 
 // Paths to assets
 var paths = {
@@ -21,7 +22,7 @@ gulp.task('watch', function () {
     gulp.watch(paths.sass + '/**/*.scss', ['sass']);
 
     // HTML watch
-    gulp.watch('index.html', ['force_livereload']);
+    gulp.watch('index.html', ['html']);
 
     // JS watch
     gulp.watch(paths.js + '/**/*.js', ['js']);
@@ -29,8 +30,15 @@ gulp.task('watch', function () {
 
 });
 
-gulp.task('sass', function () {
-    watch({glob: paths.sass + '/**/*.scss'})
+gulp.task('html', function () {
+    gulp.src('index.html')
+        // Validate HTML5 against W3C validator
+        // .pipe(w3cjs())
+        .pipe(livereload());
+});
+
+gulp.task('sass', function (e) {
+    return gulp.src(paths.sass + '/**/*.scss')
         .pipe(plumber())
         .pipe(sass())
         .pipe(autoprefixer('last 3 versions'))

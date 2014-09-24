@@ -1,0 +1,13 @@
+// Footer styles
+
+.footer {
+  height: 60px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: block;
+  color: $gray-light;
+  background-color: lighten($color-3, 70%);
+  padding: 20px;
+}

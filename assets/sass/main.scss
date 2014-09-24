@@ -1,5 +1,21 @@
 @import "variables";
+@import "bootstrap";
 
 body {
-  background-color: white;
+  background-color: #fff;
+  color: $color-4;
+  font-size: 16px;
+  font-weight: 300;
 }
+
+.jumbotron {
+  color: $color-1;
+  h1 {
+    font-weight: 700;
+  }
+
+  background-color: $color-5;
+}
+
+// Footer styles
+@import "partials/footer";
