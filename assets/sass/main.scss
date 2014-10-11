@@ -32,6 +32,10 @@ a {
   //  padding: 20px;
 }
 
+.no-margin {
+  margin: 0;
+}
+
 .logo {
 
   @include animation(fadein 2s);
