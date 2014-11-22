@@ -1,7 +1,9 @@
-DrewHammond.me Website
-======================
+Who is Drew Hammond?
+====================
 
-My static [personal website](https://drewhammond.me) under public version control. Don't mind me
+This repository contains my static [personal website](https://drewhammond.me). There's nothing to see here, move along.
+
+Contact information and other links for stalking available on drewhammond.me.
 
 Development Notes
 -----------------
