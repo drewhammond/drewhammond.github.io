@@ -8,7 +8,7 @@
     "gulp-plumber": "^0.6.5",
     "gulp-rename": "^1.2.0",
     "gulp-sass": "^1.0.0",
-    "gulp-uncss": "^0.4.5",
+    "gulp-uncss": "^0.5.1",
     "gulp-watch": "^1.0.7"
   }
 }
