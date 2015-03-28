@@ -16,4 +16,8 @@
 	line-height: 60px;
 	color: #3e6372;
   }
+
+  a {
+    color: darken(desaturate(#76cdfa, .25), 25%);
+  }
 }

@@ -85,7 +85,7 @@ gulp.task('dev', ['watch', 'sass', 'js'], function () {
 });
 
 // Task for production
-gulp.task('prod', ['watch', 'sass', 'js'], function () {
+gulp.task('prod', ['watch', 'sass', 'js', 'optimize'], function () {
 	console.log('Dev task completed!');
 });
 
